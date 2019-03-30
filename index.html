@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Super Fast jQuery Slider</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="other.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="interset-media.min.js"></script>
+  <script>
+    $(function () {
+
+      // Slideshow 1
+      $("#slides1").responsiveSlides({
+        auto: true,
+        pagination: true,
+        nav: true,
+        fade: 500,
+        maxwidth: 800
+      });
+
+    });
+  </script>
+  
+</head>
+<body>
+
+    <div class="rslides_container">
+      <ul id="slides1" class="rslides">
+        <li>
+          <img src="https://deepto.org/layouts/1.jpg" alt="" />
+        </li>
+        <li>
+          <img src="https://deepto.org/layouts/2.jpg" alt="" />
+        </li>
+        <li>
+          <img src="https://deepto.org/layouts/3.jpg" alt="" />
+        </li>
+      </ul>
+    </div>
+
+
+</body>
+</html>
